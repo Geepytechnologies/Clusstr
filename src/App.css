@@ -1,0 +1,5 @@
+.blurdiv {
+  border-radius: 348px;
+  background: #6c98ff;
+  filter: blur(250px);
+}
