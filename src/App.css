@@ -3,3 +3,23 @@
   background: #6c98ff;
   filter: blur(250px);
 }
+.gradient-text {
+  background-image: linear-gradient(to right, #ffffff, #9fffd2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sidebar {
+  position: fixed;
+  width: 0px;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: width 0.3s ease-in-out 0.2s;
+}
