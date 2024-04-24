@@ -28,15 +28,23 @@ const Header = (props: Props) => {
   };
   return (
     <div className="font-nuni bg-[#214559] z-[200] flex items-center justify-between p-6 gap-3 ">
-      <p className="text-white text-[1.8rem] text-center md:text-left w-full font-[800]">
+      {/* <p className="text-white text-[1.8rem] text-center md:text-left w-full font-[800]">
         clusstr
-      </p>
+      </p> */}
+      <img
+        src="/logo2.png"
+        alt=""
+        className="w-[35%] sm:w-[20%] object-cover"
+      />
 
-      <div className="hidden md:flex">
-        <button className="bg-secondary min-w-[180px] p-[12px] text-[20px] rounded-[8px] text-white flex items-center justify-center gap-2">
+      <div className="">
+        <a
+          href="#countmein"
+          className="bg-secondary md:min-w-[180px] p-[12px] md:text-[20px] rounded-[8px] text-white flex items-center justify-center gap-2"
+        >
           <span>Join Waitlist</span>
           <RiArrowRightUpLine />
-        </button>
+        </a>
       </div>
     </div>
   );

@@ -9,6 +9,11 @@ const Jobs = (props: Props) => {
         <img src="/joblists/job1.svg" alt="" />
         <img src="/joblists/job2.svg" alt="" />
         <img src="/joblists/job3.svg" alt="" />
+        <img src="/joblists/job4.svg" alt="" />
+        <img src="/joblists/job1.svg" alt="" />
+        <img src="/joblists/job2.svg" alt="" />
+        <img src="/joblists/job3.svg" alt="" />
+        <img src="/joblists/job4.svg" alt="" />
       </div>
     </div>
   );

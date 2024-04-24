@@ -12,14 +12,16 @@ type Props = {};
 const Landingpage = (props: Props) => {
   return (
     <div className="bg-[#214559]">
-      <div className=" md:pb-[180px] bg-white md:bg-[#214559]">
+      <div className="pb-4 md:pb-[100px]">
         <Header />
         <Hero />
       </div>
       <Skills />
       <Jobs />
       <Apply />
-      <Countmein />
+      <section id="countmein">
+        <Countmein />
+      </section>
       <Footer />
     </div>
   );

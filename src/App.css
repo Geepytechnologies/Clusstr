@@ -8,6 +8,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  /* background-size: 200% auto;
+  animation: slide 3s linear infinite; */
 }
 .absolute-center {
   position: absolute;
@@ -22,4 +24,26 @@
   right: 0;
   overflow-x: hidden;
   transition: width 0.3s ease-in-out 0.2s;
+}
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent; /* Adjust width of the triangle */
+  border-right: 50px solid transparent; /* Adjust width of the triangle */
+  border-bottom: 100px solid #ccc; /* Adjust height and color of the triangle */
+}
+.right-angle-triangle {
+  width: 0;
+  height: 0;
+  /* border-bottom: 100px solid #ccc; 
+  border-right: 100px solid transparent;  */
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
