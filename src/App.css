@@ -38,6 +38,23 @@
   /* border-bottom: 100px solid #ccc; 
   border-right: 100px solid transparent;  */
 }
+.loader {
+  border: 4px solid white; /* Teal color with 20% opacity */
+  border-top: 4px solid #008080; /* Teal color */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite; /* Animation duration and timing function */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  } /* Start position of the animation */
+  100% {
+    transform: rotate(360deg);
+  } /* End position of the animation */
+}
 
 @keyframes slide {
   0% {
